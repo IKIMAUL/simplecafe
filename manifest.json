@@ -1,0 +1,21 @@
+{
+    "name": "Simple Cafe",
+    "short_name": "SC",
+    "description": "A simple cafe",
+    "icons": [
+        {
+            "src": "assets/images/SC.png",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/images/SC-192.png",
+            "size": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#1F3641",
+    "background_color": "#ffffff",
+    "prefer_related_applications": false
+}

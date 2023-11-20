@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IF=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC (simple cafe)</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/SC.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <h1><a href="">Menu Cafe</a></h1>
+    </header>
+
+    <section id="menu">
+        <!-- Menu items will be displayed here using JavaScript -->
+        <div>
+            <h3>Croffle</h3>
+            <p>Rp15,000</p>
+            <img src="assets/images/croffle.jpg" alt="croffle">
+        </div>
+        <div>
+            <h3>Ekspresso</h3>
+            <p>Rp10,000</p>
+            <img src="assets/images/espresso.jpg" alt="espresso">
+        </div>
+        <div>
+            <h3>Kentang Goreng</h3>
+            <p>Rp12,000</p>
+            <img src="assets/images/kentanggoreng.jpg" alt="kentanggoreng">
+        </div>
+        <div>
+            <h3>Late</h3>
+            <p>Rp13,000</p>
+            <img src="assets/images/late.jpg" alt="late">
+        </div>
+        <div>
+            <h3>Milk Tea</h3>
+            <p>Rp14,000</p>
+            <img src="assets/images/milktea.jpg" alt="milktea">
+        </div>
+        <div>
+            <h3>Moca</h3>
+            <p>Rp13,000</p>
+            <img src="assets/images/moca.jpg" alt="moca">
+        </div>
+    </section>
+    <fieldset>
+        <legend>Menu Input</legend>
+        <input type="text" id="menuInput" placeholder="Menu" />
+        <input type="number" id="jumlahInput" placeholder="Jumlah" />
+        <input type="button" onclick="addMenu()" value="Tambah" />
+    </fieldset>
+    <div id="cart">
+        <h2>Detail Shopping</h2>
+        <ul id="cartItems"></ul>
+        <p>Total Harga: Rp<span id="totalHarga">0</span></p>
+    </div>
+</div>
+<a href="index.html">Back</a>
+</div>
+
+<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/cafe.js"></script>
+<script src="register.js"></script>
+<script src="service-worker.js"></script>
+    
+</body>
+
+</html>
